@@ -1,6 +1,18 @@
-# ArtistGraphCrawler
+# Artist Graph Crawler
 
 ArtistGraphCrawler is a web crawler designed to extract musical artists and their collaborative network from Wikipedia.  This is designed to persist the acquired data into a neo4j database, but can be adapted to any other database type.
+
+## Instructions
+
+Dependencies: This project requires the eclipse IDE.
+
+1. Download and install eclipse
+2. Clone the repository into a projects directory
+3. Use File > Import to import the project into eclipse
+4. Open Driver.java, found in the com.jfox pacakage.
+5. Run the file with the preset parameters
+
+Both the starting URL and the number of iterations the crawler makes are modifiable parameters.  A well connected musician, like Paul McCartney, is a recommended starting point.  At least 5000 iterations of the crawler are recommended to scrape enough data.
 
 ## The algorithm
 
