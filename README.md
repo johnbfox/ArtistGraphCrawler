@@ -4,7 +4,7 @@ ArtistGraphCrawler is a web crawler designed to extract musical artists and thei
 
 ## Instructions
 
-Dependencies: This project requires the eclipse IDE.
+Dependencies: This project requires the eclipse IDE and a running neo4j database instance.
 
 1. Download and install eclipse
 2. Clone the repository into a projects directory
